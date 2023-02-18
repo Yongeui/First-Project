@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 응애 나 아가랄로 </title>
+
+</head>
+<body>
+    <img id="랄로1" src="이게뭐야.jpg" alt="랄로 이게뭐야">
+    <img id="응애랄로" src="응애.jpg" alt="랄로 응애">
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+        $("#랄로1").click(function(){
+            $("#응애랄로").toggle();
+        });
+        });
+  </script>
+</body>
+</html>
